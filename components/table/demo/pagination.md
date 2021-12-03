@@ -54,7 +54,7 @@ const columns = [
     render: tags => (
       <span>
         {tags.map(tag => {
-          let color = tag.length > 5 ? 'geekblue' : 'green';
+          let color = tag.length > 2 ? 'geekblue' : 'green';
           if (tag === 'loser') {
             color = 'volcano';
           }
